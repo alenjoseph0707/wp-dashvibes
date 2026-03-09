@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/yourusername/dashvibe
  * Description: Transform your WordPress admin dashboard with fun seasonal themes — Snowfall, Pizza Party, Galaxy & more!
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Alen Joseph
  * Author URI: https://github.com/yourusername
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
