@@ -1,0 +1,121 @@
+/**
+ * DashVibe Base Admin Overrides
+ * Applied when any theme is active
+ */
+
+/* Admin menu sidebar */
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+    background: var(--dashvibe-primary) !important;
+}
+
+#adminmenu a {
+    color: var(--dashvibe-text) !important;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu a {
+    background: var(--dashvibe-secondary) !important;
+    color: var(--dashvibe-text) !important;
+}
+
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background: var(--dashvibe-accent) !important;
+    color: var(--dashvibe-highlight) !important;
+}
+
+#adminmenu li a:hover,
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+    background: var(--dashvibe-accent) !important;
+    color: var(--dashvibe-highlight) !important;
+}
+
+/* WP Admin Bar */
+#wpadminbar {
+    background: var(--dashvibe-primary) !important;
+}
+
+#wpadminbar .ab-item,
+#wpadminbar a.ab-item,
+#wpadminbar > #wp-toolbar span.ab-label,
+#wpadminbar > #wp-toolbar span.notif-count {
+    color: var(--dashvibe-text) !important;
+}
+
+/* Dashboard content area */
+#wpcontent {
+    background: var(--dashvibe-secondary);
+}
+
+/* Dashboard widgets */
+.postbox {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+    backdrop-filter: blur(10px);
+}
+
+.postbox .hndle,
+.postbox .handlediv {
+    color: var(--dashvibe-text) !important;
+}
+
+.postbox .inside {
+    color: var(--dashvibe-text) !important;
+}
+
+.postbox .inside a {
+    color: var(--dashvibe-highlight) !important;
+}
+
+/* Page titles */
+#wpbody-content .wrap h1,
+#wpbody-content .wrap h2 {
+    color: var(--dashvibe-text) !important;
+}
+
+/* Screen options & help tabs */
+#screen-meta-links .screen-meta-toggle a {
+    color: var(--dashvibe-text) !important;
+}
+
+/* Welcome panel */
+.welcome-panel {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+}
+
+.welcome-panel h2,
+.welcome-panel h3,
+.welcome-panel p {
+    color: var(--dashvibe-text) !important;
+}
+
+/* At a Glance & Activity */
+#dashboard_right_now .main p,
+#dashboard_right_now .sub p,
+#dashboard-widgets .inside p,
+#dashboard-widgets .inside li {
+    color: var(--dashvibe-text) !important;
+}
+
+/* Footer */
+#wpfooter {
+    color: var(--dashvibe-text) !important;
+}
+
+#wpfooter a {
+    color: var(--dashvibe-highlight) !important;
+}
+
+/* Smooth transitions */
+#adminmenu a,
+.postbox,
+#wpadminbar {
+    transition: background 0.3s ease, color 0.3s ease;
+}

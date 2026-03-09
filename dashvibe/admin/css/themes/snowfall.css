@@ -1,0 +1,35 @@
+/**
+ * DashVibe — Snowfall Theme CSS
+ */
+
+/* Frosted glass effect on widgets */
+.postbox {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(12px) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Icy scrollbar */
+#wpcontent::-webkit-scrollbar {
+    width: 8px;
+}
+
+#wpcontent::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+
+#wpcontent::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4facfe, #00f2fe);
+    border-radius: 4px;
+}
+
+/* Subtle glow on links */
+#wpbody-content a:not(.button) {
+    text-shadow: 0 0 8px rgba(79, 172, 254, 0.3);
+}
+
+/* Menu hover frost effect */
+#adminmenu li a:hover {
+    box-shadow: inset 0 0 20px rgba(79, 172, 254, 0.1) !important;
+}
